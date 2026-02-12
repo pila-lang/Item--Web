@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | PILA Store</title>
+    <meta name="description" content="Join PILA Store and unlock exclusive access to premium tech deals.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@500;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Simplified Header for Auth -->
+    <header>
+        <a href="index.html" class="logo">PILA</a>
+        <a href="index.html" class="btn-secondary" style="font-size: 0.8rem; padding: 0.5rem 1rem;">Back to Home</a>
+    </header>
+
+    <div class="auth-container">
+        <div class="auth-box">
+            <div class="auth-header">
+                <h2>Join The Future</h2>
+                <p style="color: var(--text-secondary);">Create your PILA account today.</p>
+            </div>
+
+            <form action="#" method="POST" onsubmit="event.preventDefault(); window.location.href='index.html';">
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" class="form-control" placeholder="John Doe" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" class="form-control" placeholder="john@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" class="form-control" placeholder="Create a strong password"
+                        required>
+                </div>
+
+                <button type="submit" class="btn-primary btn-block">Create Account</button>
+            </form>
+
+            <div class="auth-footer">
+                Already have an account? <a href="#">Log In</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
